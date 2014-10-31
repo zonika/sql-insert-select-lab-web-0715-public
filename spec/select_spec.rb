@@ -45,6 +45,6 @@ describe 'selecting data' do
     sql = <<-SQL
     # write your sql statement here
     SQL
-    expect(@db.execute(sql)).to eq([["Maru", 6], ["Nala", 3], ["Lil Bub"], 3])
+    expect(@db.execute(sql)).to eq([["Maru", 6], ["Nala", 3], ["Lil Bub", 3]])
   end
 end

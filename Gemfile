@@ -1,4 +1,11 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-# gem "rails"
+# Database
+gem 'sqlite3'
+
+# Testing
+gem 'rspec'
+
+# Debugging
+gem 'pry'
