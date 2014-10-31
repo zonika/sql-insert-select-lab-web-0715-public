@@ -7,6 +7,6 @@ describe "Inserting data" do
   end
 
   it 'has 4 cats' do 
-    expect(@db.execute("SELECT COUNT(*) FROM cats;").flatten[0]).to eq(16)
+    expect(@db.execute("SELECT COUNT(*) FROM cats;").flatten[0]).to eq(4)
   end
 end
