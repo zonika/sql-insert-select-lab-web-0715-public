@@ -1,6 +1,6 @@
 ---
 tags: sql, insert, select, introductory, micro
-languages: sql
+languages: sql, ruby
 resources: 
 ---
 
