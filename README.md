@@ -33,12 +33,12 @@ This is the data I'm inserting into my cats table. Use this data in your INSERT 
 
 ## Selecting
 
-Get the tests in `spec/select_spec.rb` to pass. Note that for this section, the database will be seeded with the data listed above. Change the specs themselves to include your querying statements. The specs will look something like this:
+Get the tests in `spec/select_spec.rb` to pass. Note that for this section, the database will be seeded with the data listed above. Change the specs themselves to include your querying statements in place of the comments. The specs will look something like this:
 
 ```ruby
   it 'selects all the friendly cats and returns their names' do 
     sql = <<-SQL
-    # write your sql statement here
+    # write your sql statement here and delete this comment
     SQL
     expect(@db.execute(sql)).to eq([["Grumpy Cat"], ["Lil Bub"]])
   end
