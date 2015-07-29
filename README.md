@@ -1,8 +1,4 @@
----
-tags: sql, insert, select, introductory, micro
-languages: sql, ruby
-resources: 
----
+
 
 # Sql Insert and Select Lab
 
